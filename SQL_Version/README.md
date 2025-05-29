@@ -1,18 +1,26 @@
-# 🛒 Supermarket Sales Analysis (SQL Version)
+# Retail Sales SQL Analysis 📊
 
-This project demonstrates data analysis using **SQL** in Oracle SQL Developer. The focus is on extracting insights from a supermarket retail dataset, including trends, profit, and category-level performance.
+This project showcases SQL queries and analysis performed on a `retail_sales` dataset using Oracle SQL. It includes insights like:
 
----
+- Total and category-wise sales/profit
+- Monthly trends and growth rates
+- Customer segmentation and repeat purchase behavior
+- Profit margin by region and category
+- Ranking top customers and products
 
-## 📊 Dataset
+## Contents
 
-- **Source**: Supermart Grocery Sales – Retail Analytics Dataset
-- **Loaded into**: Oracle SQL Developer
-- **Tables Used**: One main sales table (cleaned and formatted)
+- `retail_sales_queries.sql`: All the analytical queries
+- Trigger and sequence setup for `order_id`
+- Monthly growth using window functions
+- Customer lifetime analysis
 
----
+## Tools Used
+- Oracle SQL
+- SQL Developer / DBeaver
+- Git & GitHub
 
-## 🧰 Tools & Technologies
 
-- **SQL**: Oracle SQL Developer
-- **Database Concepts**: Joins, GROUP BY, CASE statements, date functions, subqueries
+## Author
+Afreen Begum
+bafreen11@gmail.com
